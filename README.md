@@ -9,7 +9,7 @@
 ### Execution
 1. Enter the root of the project
 2. Copy the `example.env` to `.env`
-  - - Note: The Environtment Variables need to be altered 
+  - - Note: The Environtment Variables need to be altered. For now set the variable `REACT_APP_FLEXICHARGE_API_URL` to the live backend address
 3. Run the command `docker compose up --build`
   - - Note: If you are using an older version of docker you may need to run `docker-compose up --build`
   - - Note: The flag `--build` only needs to be present on __first time__ build
