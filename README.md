@@ -18,10 +18,15 @@
   - - Build process is quite lengthy on __first time__ builds
 
 
-## Development
+## Environment Variables
+### APP_NAME
+The name of the application. Used in docker compose.
 
-### Requirements
-* NodeJS stable
-* Yarn
-* Docker version 18.09 or later
-*  ```.env``` file in root of project
+### NODE_ENV
+The running environment of the process. Either _production_ or _development_
+
+### REACT_APP_DEV_PORT
+The port the process will be run on.
+
+### REACT_APP_FLEXICHARGE_API_URL
+The URL of the backend to run remote requests to.
